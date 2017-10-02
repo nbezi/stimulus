@@ -245,9 +245,6 @@ class StimulusComponent extends React.Component {
   }
 }
 
-var stimulus = new Stimulus();
-
-module.exports.stimulus = stimulus;
-module.exports.StimulusListener = StimulusListener;
-module.exports.StimulusComponent = StimulusComponent;
-
+module.exports.sensor = new Stimulus();
+module.exports.Listener = StimulusListener;
+module.exports.Component = StimulusComponent;
