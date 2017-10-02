@@ -1,0 +1,22 @@
+{
+  "name": "stimulus",
+  "version": "0.0.5",
+  "description": "React State Manager",
+  "main": "stimulus.js",
+  "engines": {
+    "node": ">=6.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbezi/stimulus.git"
+  },
+  "author": "Norberto Bezi <norberto.bezi@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nbezi/stimulus/issues"
+  },
+  "homepage": "https://github.com/nbezi/stimulus#readme"
+}
