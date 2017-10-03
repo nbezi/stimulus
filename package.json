@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/nbezi/stimulus/issues"
   },
-  "homepage": "https://github.com/nbezi/stimulus#readme"
+  "homepage": "https://github.com/nbezi/stimulus#readme",
+  "dependencies": {
+    "react": "16.x"
+  }
 }
