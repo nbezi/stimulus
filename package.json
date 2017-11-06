@@ -1,6 +1,6 @@
 {
   "name": "stimulus-react",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "description": "React State Manager",
   "main": "stimulus.js",
   "engines": {
