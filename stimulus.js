@@ -1,5 +1,8 @@
 'use strict';
+import Stimulus from './lib/stimulus';
+import Component from './lib/component';
+import Listener from './lib/listener';
 
-module.exports.sensor = require('./lib/sensor');
-module.exports.Listener = require('./lib/listener');
-module.exports.Component = require('./lib/component');
+export default Stimulus;
+export const Listener;
+export const Component; 

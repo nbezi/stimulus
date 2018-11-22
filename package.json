@@ -4,10 +4,12 @@
   "description": "React State Manager",
   "main": "stimulus.js",
   "engines": {
-    "node": ">=6.11"
+    "node": ">=8"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint lib/",
+    "eslint": "eslint lib/",
+    "eslint-fix": "eslint lib/ --fix"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,14 @@
   },
   "homepage": "https://github.com/nbezi/stimulus#readme",
   "dependencies": {
-    "react": "16.x"
+    "react": "^16.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
