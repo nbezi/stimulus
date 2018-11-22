@@ -1,0 +1,21 @@
+{
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true
+    },
+    "extends": "standard",
+    "rules": {
+      "arrow-parens": 1,
+      "generator-star-spacing": 1,
+      "semi": 0,
+      "no-useless-escape": 1
+    },
+    "globals": {
+      "React": true,
+      "ReactDOM": true
+    }
+  }
